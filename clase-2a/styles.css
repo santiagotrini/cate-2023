@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.lienzo {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+.cuadradito {
+  background: black;
+  position: absolute;
+}
