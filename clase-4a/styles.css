@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+div.opciones {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 5px;
+  margin: 0 auto;
+}
+
+.verde {
+  background: forestgreen;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid forestgreen;
+}
+
+.rojo {
+  background: firebrick;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid firebrick;
+}
