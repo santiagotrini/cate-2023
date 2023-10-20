@@ -5,6 +5,20 @@
     <title>Un blog</title>
   </head>
   <body>
+    <form onsubmit="filterByAuthor(event)">
+      <input type="text" name="author" placeholder="Filtra por autor">
+      <input type="submit" value="Filtrar">
+    </form>
+    <h2>Nuevos posteos</h2>
+    <form onsubmit="savePost(event)">
+      <input type="text" name="title" placeholder="title">
+      <br>
+      <input type="text" name="author" placeholder="author">
+      <br>
+      <input type="text" name="content" placeholder="content">
+      <br>
+      <input type="submit" value="guardar">
+    </form>
     <div class="posts">
       <!-- los posts se cargan aca -->
     </div>
