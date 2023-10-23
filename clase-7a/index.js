@@ -27,6 +27,7 @@ mongoose.connect(DB)
 app.get('/posts', (req, res) => {
   Post.find()
     .then(posts => {
+      console.log(req.headers);
       // console.log(posts);
       res.status(200).json(posts);
     })
